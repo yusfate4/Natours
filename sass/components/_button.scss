@@ -39,19 +39,18 @@
 
         &::after {
             background-color: $color-white;
-        } 
+        }
     }
-        &--green {
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
             background-color: $color-primary;
-            color: $color-white;
-    
-            &::after {
-                background-color: $color-primary;
-            }
+        }
     }
-
-   
-
+    
     &::after {
         content: "";
         display: inline-block;
@@ -90,20 +89,13 @@
         transform: translateY(-2px);
     }
 
+
+
+
+
+    
     &:active {
-        box-shadow: 0 /5rem 1rem rgba($color-black, .15);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
